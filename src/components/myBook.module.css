@@ -1,0 +1,25 @@
+#title{
+    text-align: center;
+    background-color: beige;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.main>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+.main>div>button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
